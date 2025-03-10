@@ -1,0 +1,35 @@
+.todo-input > input {
+    width: 70%;
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #3E1671;
+    background-color: #15101C;
+    color: #fff;
+    margin-left: 18px;
+}
+
+.warner > input {
+    border: 1px solid red;
+}
+
+.todo-input > button {
+    width: 4rem;
+    color: #fff;
+    background-color: #9E78CF;
+    border: none;
+    border-radius: 4px;
+    margin-left: 0.75rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.todo-input > button:hover {
+    background-color: #8350c5;
+}
+
+.todo-input > p {
+    color: red;
+    position: relative;
+    left: 20px;
+}

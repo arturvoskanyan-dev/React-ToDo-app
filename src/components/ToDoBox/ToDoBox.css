@@ -1,0 +1,13 @@
+.todo-box {
+    width: 400px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 4px 6px black;
+    background-color: #15101C;
+    overflow: hidden;
+}
+
+.todo-box > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}

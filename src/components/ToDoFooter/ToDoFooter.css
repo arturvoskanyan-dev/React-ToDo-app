@@ -1,0 +1,27 @@
+.todo-footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #3E1671;
+}
+
+.todo-footer > span {
+    flex: 1;
+    color: #fff;
+}
+
+.todo-footer > button {
+    width: 5rem;
+    color: #fff;
+    background-color: #9E78CF;
+    border: none;
+    border-radius: 4px;
+    margin-left: 0.75rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.todo-footer > button:hover {
+    background-color: #8350c5;
+}
