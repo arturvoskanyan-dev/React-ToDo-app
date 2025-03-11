@@ -71,6 +71,10 @@ export default function ToDoBox() {
         !text ? setBlur(true) : null
     }
 
+    const completedTasks = () => {
+        return todos.map((elem) => elem.isDone).filter((elem) => elem === true).length
+    }
+
     return (
         <div className='todo-box'>
             <h1>To Do List</h1>
@@ -93,7 +97,10 @@ export default function ToDoBox() {
                         }
                     </ul>
 
-                    <ToDoFooter tasks={todos.length} clearAll={clearAll} />
+                    <ToDoFooter 
+                    tasks={todos.length} 
+                    clearAll={clearAll} 
+                    completedTasks={completedTasks} />
                 </div>
             </form>
         </div>
